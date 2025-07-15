@@ -1,0 +1,105 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color:rgb(168, 232, 232);
+    margin: 0;
+    padding: 0;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: chocolate;
+}
+.clc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: blanchedalmond;
+    width: 27%;
+   
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px pink;
+}
+label,input,button{
+    margin-bottom: 30px;
+    width: 100%;
+   
+}
+button{
+    background-color: chartreuse;
+    color:white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: fuchsia;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+}
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+ 
+.clc{
+   
+    width: 40%;
+   
+
+}
+}
+
+@media screen and (max-width: 768px) {
+ 
+.clc{
+   
+    width: 60%;
+   
+
+}
+}
+
+@media screen and (max-width: 480px) {
+ 
+.clc{
+   
+    width: 80%;
+   
+
+}
+}
+
+@media screen and (max-width: 300px) {
+ 
+    button{
+ 
+    padding: 10px;
+   
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+}
+
+
+
